@@ -71,7 +71,6 @@ e_max = ttk.Entry()
 e_dmg = ttk.Entry()
 e_act = ttk.Entry()
 e_stat = ttk.Entry()
-status_button = ttk.Button(cs, text = "Status aktualisieren")
 
 #widgets placing
 cst.grid(column = 14 , row = 0, columnspan = 2,)
@@ -127,7 +126,6 @@ e_mo.grid(column = 12, row = 5)
 e_modmg.grid(column = 13, row = 5 )
 mo_act.grid(column = 14, row = 5)
 mo_stat.grid(column = 15, row = 5)
-status_button.grid(column = 12, row = 6)
 
 #Statusfenster
 def status_update():
