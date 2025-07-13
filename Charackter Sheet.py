@@ -176,5 +176,3 @@ def status_update():
 
 status_update()
 cs.mainloop()
-
-#find ich super
